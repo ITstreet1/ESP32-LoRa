@@ -113,7 +113,7 @@ void loop() {
  if(millis()>vreme+period){
   sendToWeb();
   vreme=millis();
-   // delay(60000); //vreme koliko pravimo pauzu nakon svakog novog upisa u bazu na serveru
+    //vreme koliko pravimo pauzu nakon svakog novog upisa u bazu na serveru
  }
 }
 void sendToWeb(){
