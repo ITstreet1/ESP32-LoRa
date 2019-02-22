@@ -28,9 +28,9 @@ String packSize = "--";
 String packet ;
 String t, h, g = ""; // promenljive za temperaturu i relativnu vlaznost vazduha
 
-const char* ssid = "dekip_network";       //SSID
-const char* password = "0611975itstreet"; //lozinka
-const char* webServer = "www.itstreet.org"; //host
+const char* ssid = "*********";       //SSID
+const char* password = "*********"; //lozinka
+const char* webServer = "********"; //host
 const uint16_t httpPort = 80;
 WiFiClient client;
 
